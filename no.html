@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<div id="web_bg" style="background-image: url(./dg.jpg);"></div>
+<style type="text/css">
+#web_bg{
+  position:fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  height:100%;
+  min-width: 1000px;
+  z-index:-10;
+  zoom: 1;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-position: center 0;
+}
+</style> 
+</head>
+<body>
+<ul>
+<input name = "tt" id="tt" value="" placeholder="我也不知道这个有啥用" style="color: #E6E6E6;background-color:transparent;border: 0px;">
+<button onclick="zhuti()" style="color: #FFFFFF;
+	   border-radius:10px;width:100px;  
+	   height:28px;  
+	   background:linear-gradient(to right, #757575,#212121);
+	   opacity:0.5;">按我</button>
+</ul>
+<textarea name = "shuchu" id="shuchu" style="font-size: 600%;color: #E6E6E6;width:1200px;height: 500px;outline-style: none ;opacity:0.7;background:none;border: 0px;background-color:transparent; border: 0px;" ></textarea>
+<script>
+function zhuti(){
+var tt = document.getElementById("tt").value;
+var shuchu =tt+"，这使你充满了决心。NM$L,没告诉你没做好吗？"
+document.getElementById("shuchu").value = shuchu
+
+}
+</script>
+</body>
+
+</html>
